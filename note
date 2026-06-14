@@ -1,0 +1,366 @@
+<h6>Our alumni work at world-class companies around the world including</h6>
+        <div class="logos">
+            <div> <img src="./media/google.png" alt=""></div>
+            <div> <img src="./media/Interswitch.png" alt=""></div>
+            <div> <img src="./media/Andela-log-landscape-blue-400px.png" alt=""></div>
+            <div> <img src="./media/Microsoft_logo.png" alt=""></div>
+            <div> <img src="./media/Paystack.png" alt=""></div>
+            <div> <img src="./media/brewery.png" alt=""></div>
+            <div> <img src="./media/Wema-Bank-Logo.png" alt=""></div>
+            <div> <img src="./media/clan-logo.png" alt=""></div>
+            <div> <img src="./media/edozzier.png" alt=""></div>
+            <div> <img src="./media/moneymie.png" alt=""></div>
+            <div> <img src="./media/Nigerian_Army.png" alt=""></div>
+            <div> <img src="./media/aella-credit.png" alt=""></div>
+        </div>
+    </div>
+    <section class="tour-section">
+    <div class="container tour-grid">
+      <div class="video-box">
+        <img
+          src="[img.youtube.com](https://youtu.be/HgC6bjMbqpw.jpg)"
+          alt="Campus Tour video thumbnail"
+        />
+        <div class="play-btn">&#9658;</div>
+      </div>
+      <div class="tour-content">
+        <h1>Take a Tour</h1>
+        <p>
+          Our campus is a living centre for innovation and creativity for
+          sustainability. We love showing students our campus and allowing them
+          to see, hear and feel the excitement that comes with being part of the
+          Central community which is an atmosphere that is open-minded, always
+          exciting, and filled with academic excellence.
+        </p>
+        <a href="#" class="apply-btn">Apply Now</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+ -->
+
+
+ <!-- ALUMNI SECTION -->
+
+<section class="alumni-section">
+
+    <div class="alumni-container">
+
+        <h2>
+            Our alumni work at world-class
+            companies around the world including
+        </h2>
+
+        <div class="logo-grid">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Interswitch_Logo.png" alt="Interswitch">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Andela_logo.png" alt="Andela">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Paystack.png" alt="Paystack">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Wema_Bank_logo.png" alt="Wema">
+
+            <img src="https://sqi.edu.ng/wp-content/uploads/2020/08/edozzier.png" alt="Edozzier">
+
+            <img src="https://sqi.edu.ng/wp-content/uploads/2020/08/moneymie.png" alt="Moneymie">
+
+            <img src="https://sqi.edu.ng/wp-content/uploads/2020/08/Nigerian_Army.png" alt="Army">
+
+            <img src="https://sqi.edu.ng/wp-content/uploads/2020/08/aella-credit.png" alt="Aella">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- TAKE A TOUR -->
+
+<section class="tour-section">
+
+    <div class="tour-container">
+
+        <div class="tour-video">
+
+            <iframe
+                width="100%"
+                height="350"
+                src="https://www.youtube.com/embed/HgC6bjMbqpw"
+                title="SQI Campus Tour"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+        <div class="tour-content">
+
+            <h2>Take a Tour</h2>
+
+            <p>
+                Our campus is a living centre for innovation and creativity for
+                sustainability. We love showing students our campus and allowing
+                them to see, hear and feel the excitement that comes with being
+                part of the Central community which is an atmosphere that is
+                open-minded, always exciting, and filled with academic excellence.
+            </p>
+
+            <button>Apply Now</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- TESTIMONIALS -->
+
+<section class="testimonial-section">
+
+    <div class="testimonial-header">
+
+        <h2>Testimonials</h2>
+
+        <p>
+            Read what our current students and alumni have to say
+            about their SQI experience.
+        </p>
+
+    </div>
+
+    <div class="testimonial-container">
+
+        <div class="google-card">
+
+            <img src="https://lh3.googleusercontent.com/a/default-user=s100-c"
+                alt="google review">
+
+            <h3>SQI College of ICT IBADAN</h3>
+
+            <div class="stars">★★★★★</div>
+
+            <p>Based on 84 reviews</p>
+
+            <button>Review us on Google</button>
+
+        </div>
+
+        <div class="review-card">
+
+            <h4>Omolola Omolabake</h4>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+                Coming to SQI has made me believe that life has more to offer.
+                Talking about being experienced in ICT rapidly, SQI deserves
+                uncountable recommendations.
+            </p>
+
+        </div>
+
+        <div class="review-card">
+
+            <h4>Cherish Ordia</h4>
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+                It is a great place to learn. It is a conducive environment
+                filled with loving and patient teachers and supportive students.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+    
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================
+   ALUMNI SECTION
+======================= */
+
+.alumni-section{
+    width:80%;
+    margin:120px auto;
+}
+
+.alumni-section h2{
+    width:55%;
+    font-size:52px;
+    line-height:1.2;
+    color:#222;
+    margin-bottom:80px; 
+
+.logo-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:70px;
+    align-items:center;
+    justify-items:center;
+}
+
+.logo-grid img{
+    width:180px;
+    object-fit:contain;
+}
+
+
+/* =======================
+   TOUR SECTION
+======================= */
+
+ .tour-section{
+    background:#001970;
+    padding:80px 0;
+    margin-top:100px;
+}
+
+.tour-container{
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.tour-video{
+    flex:1;
+}
+
+.tour-content{
+    flex:1;
+    color:white;
+}
+
+.tour-content h2{
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+.tour-content p{
+    line-height:2;
+    font-size:18px;
+}
+
+.tour-content button{
+    margin-top:30px;
+    padding:18px 40px;
+    border:none;
+    border-radius:12px;
+    background:#002ea7;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+} 
+
+/* =======================
+   TESTIMONIALS
+======================= */
+
+.testimonial-section{
+    width:80%;
+    margin:120px auto;
+}
+
+.testimonial-header h2{
+    font-size:72px;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.testimonial-header p{
+    font-size:18px;
+    color:#555;
+}
+
+.testimonial-container{
+    display:flex;
+    gap:25px;
+    margin-top:60px;
+}
+
+.google-card{
+    width:30%;
+    text-align:center;
+    padding:25px;
+}
+
+.google-card img{
+    width:80px;
+    border-radius:50%;
+}
+
+.google-card h3{
+    margin-top:15px;
+}
+
+.google-card button{
+    margin-top:20px;
+    background:#4285F4;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.review-card{
+    flex:1;
+    background:#f8f8f8;
+    padding:25px;
+    border-radius:10px;
+    min-height:250px;
+}
+
+.review-card h4{
+    color:#1a4fb7;
+    margin-bottom:10px;
+}
+
+.stars{
+    color:#f4b400;
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.review-card p{
+    line-height:1.8;
+    color:#333;  } 

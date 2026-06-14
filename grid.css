@@ -16,7 +16,7 @@
     background-color: green;
     grid-row: 3/4;
     grid-column:  1/4;
-    /* grid-column-start:1 ;
+    grid-column-start:1 ;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4; */
@@ -32,46 +32,84 @@
 } */ 
  .container_2{
 
-     height: 80dvh;
-     border: 1px solid;
+     min-height: 70dvh;
+     /* border: 1px solid; */
      width: 80%;
      margin: 30px auto;
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr ;
-     grid-template-rows: 1fr 1fr 1fr  1fr; 
-     padding: 10px;
-     gap: 10px;
+     /* grid-template-columns: repeat( 3, 300px); */
+     /* grid-template-rows: repeat(2, 300px); */
+     /* justify-content:center ; */
+     /* align-content: center;  */
+     /* grid-template-columns: 1fr 1fr 1fr ; */
+     /* grid-template-rows: 1fr 1fr 1fr  ;  */
+     /* padding: 10px; */
+     gap: 10px;  
+
+
+     grid-template-areas:
+       "header header header"
+       "side content-1 content-1"
+        "side content-1 content-1"
+         "side content-1 content-1"
+      "side content-1 content-1"
+       "side content-2 content-3"
+       "side content-2 content-3"
+       "side content-2 content-3"
+       "side content-2 content-3"
+       "footer footer footer"
+    ; 
+ 
+ }  
+ .fa-chevron-down{
+    margin-left:3px ;
+    font-size: 12px ;
  }
  
+.box{
+    /* width: 300px; */
+    font-size: 3rem ;
+    color: white; 
+    text-align: center;
+    align-content: center;
+    border: 5px solid white;
+}
+
  .box1{
     background-color: rgb(113, 113, 238);
-    grid-column: 1/5;
-     grid-row: 
+    /* grid-column: 1/5;
+     grid-row:  */
+     grid-area: header;
  }
    
  .box2{
     background-color: rgba(9, 103, 103, 0.561);
-    grid-row: 2/4;
-    grid-column: 1/2;
+    /* grid-row: 2/4;
+    grid-column: 1/2; */
+    grid-area: side ;
  }
 
  .box3{
     background-color: aquamarine;
-     grid-column: 2/4;
-     grid-row: 2/3;
+     /* grid-column: 2/4;
+     grid-row: 2/3; */
+     grid-area: content-1;
  }
  
  .box4{
     background-color: black;
     /* grid-column: 3/2;   */
+    grid-area: content-2;
                                  
  }
 
  .box5{
     background-color: bisque;
+    grid-area: content-3;
  }
 
  .box6{
 background-color: brown;
-  grid-column: 1/4;
+  /* grid-column: 1/4; */
+  grid-area: footer;
  }

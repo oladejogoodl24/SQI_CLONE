@@ -170,20 +170,21 @@ nav {
 .info-item strong{
     color: #444;
 }
-/* .top-course{ */
-    /* width: 80%; */
-    /* min-height: 70dvh; */
+.top-course{ 
+    width: 80%;
+    min-height: 70dvh;
     /* border: 1px solid ; */
-    /* margin: 20px auto;
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
-     */
-/* } */
-/* .top-course .container{ */
-    /* width: 47%;
+     
+}
+.top-course .container{
+    width: 47%;
     border:1px solid red;
-    min-height: 70dvh; */
-/* } */
+    min-height: 70dvh;
+} 
+
 /* .top-course .container>div{
     border: 1px solid ;
     min-height: 30dvh; */
@@ -195,9 +196,9 @@ nav {
   box-shadow: 0px 30px 30px 20px #D7ECDC;
 } */
 
-
+/* 
 .top-course{
-    /* border: 1px solid; */
+    border: 1px solid;
     width: 100%;
     margin-top: 250px;
     display: flex;
@@ -205,7 +206,8 @@ nav {
     margin: 20px auto;
     min-height: 70dvh;
 
-}
+} */
+
 span{
     color: RGB(255, 102, 0);
 }
@@ -256,6 +258,7 @@ h5{
 .se img{
     border-radius: 20px;
     width: 100%;
+    height: 30dvh;
 }
 h6{
     font-size: 25px;
@@ -294,6 +297,7 @@ h6{
 .pd img{
     border-radius: 20px;
     width: 100%;
+    height: 30dvh;
 }
 
 .pd1{
@@ -340,6 +344,12 @@ h6{
 .ds img{
     border-radius: 20px;
     width: 100%;
+    height: 30dvh;
+}
+.right a{
+    margin-bottom: 25px;
+    /* text-decoration: none; */
+    color: blue;
 }
 h6{
     font-size: 25px;
@@ -379,6 +389,7 @@ h6{
 .dw1 img{
     border-radius: 20px;
     width: 100%;
+    height: 30dvh;
 }
 
 .dw1{
@@ -393,4 +404,195 @@ h6{
     color: orange;
     background-color: white; 
     border-radius: 30%; 
+}
+
+
+.alumni-section{
+    width: 80%;
+    margin: 120px auto;
+}
+
+.alumni-section h2{
+    width: 55%;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #222;
+    margin-bottom: 80px;
+}
+
+.alumni-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 50px;
+    align-items: center;
+    justify-items: center;
+}
+
+.alumni-grid img{
+    max-width: 160px;
+    width: 100%;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.alumni-grid img:hover{
+    transform: scale(1.05);
+}
+
+
+.tour-section{
+    min-height: 30Dvh;
+    background:
+        linear-gradient(
+            rgba(5, 0, 80, 0.85),
+            rgba(0, 0, 120, 0.9)
+        ),
+        url("https://sqi.edu.ng/wp-content/uploads/2020/02/bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tour-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.tour-video{
+    width: 50%;
+}
+
+.tour-video iframe{
+    width: 100%;
+    height: 350px;
+    border: none;
+    border-radius: 15px;
+}
+
+.tour-content{
+    width: 50%;
+    color: white;
+}
+
+.tour-content h2{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.tour-content p{
+    font-size: 20px;
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+.tour-content button{
+    background-color: #002ea7;
+    color: white;
+    border: none;
+    padding: 11px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tour-content button:hover{
+    background-color: #0040d0;
+}
+
+.testimonials{
+    width: 85%;
+    margin: 120px auto;
+}
+
+.testimonials-heading{
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.testimonials-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.testimonials-heading p{
+    font-size: 18px;
+    color: #666;
+}
+
+.reviews-wrapper{
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.google-review-box{
+    min-width: 260px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.08);
+}
+
+.google-review-box h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.google-stars{
+    color: #fbbc05;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.google-review-box img{
+    width: 40px;
+    margin: 15px 0;
+}
+
+.google-review-box a{
+    color: #4285f4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.review-box{
+    min-width: 320px;
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.08);
+}
+
+.review-box h4{
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.review-box span{
+    font-size: 13px;
+    color: #888;
+}
+
+.stars{
+    color: #fbbc05;
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.review-box p{
+    line-height: 1.8;
+    color: #444;
 }
