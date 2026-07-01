@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link rel="stylesheet" href="./Scrollspy.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"/>
+</head>
+<body>
+  
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <h4 id="scrollspyHeading1">First heading</h4>
+  <p>.This is soe placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+  <h4 id="scrollspyHeading2">Second heading</h4>
+  <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+  <h4 id="scrollspyHeading3">Third heading</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero asperiores ratione ipsa non ab et omnis cumque, culpa nihil? Quas animi eligendi non quod rerum veritatis eveniet qui perferendis consectetur?</p>
+  <h4 id="scrollspyHeading4">Fourth heading</h4>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti porro explicabo, animi esse reiciendis sed officiis, id eum, natus quo nulla repellendus voluptas dolor numquam neque! Corporis rerum pariatur ipsa!</p>
+  <h4 id="scrollspyHeading5">Fifth heading</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cum et quisquam ratione, placeat harum labore vel unde consequatur quaerat laborum, minus qui repellat odio consequuntur dolorum provident laboriosam libero!</p>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">Item 1</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+        </nav>
+        <a class="nav-link" href="#item-2">Item 2</a>
+        <a class="nav-link" href="#item-3">Item 3</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+          <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+        </nav>
+      </nav>
+    </nav>
+  </div>
+
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+      <div id="item-1">
+        <h4>Item 1</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi qui non possimus eligendi architecto molestiae aut ipsum laboriosam nesciunt itaque eaque, tenetur asperiores, voluptatem doloremque officiis nemo, aliquid optio consequuntur!</p>
+      </div>
+      <div id="item-1-1">
+        <h5>Item 1-1</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam magni saepe at eius assumenda ex dolorum ullam fugiat. Quia est dicta consequatur? Maiores ratione recusandae sequi asperiores quos fugit amet.</p>
+      </div>
+      <div id="item-1-2">
+        <h5>Item 1-2</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione cumque libero magnam voluptatibus. Quam sapiente ratione eveniet quibusdam minus laboriosam commodi ut recusandae dolorem. Cumque laboriosam magni quo facere?</p>
+      </div>
+      <div id="item-2">
+        <h4>Item 2</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe adipisci incidunt voluptatibus, voluptas laborum inventore commodi error doloribus, animi recusandae beatae quae esse laudantium, ex et eligendi nemo ab. Doloremque!</p>
+      </div>
+      <div id="item-3">
+        <h4>Item 3</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod praesentium dolor impedit molestiae distinctio sapiente labore non magni doloribus? Minima qui neque totam odio voluptatibus rem magnam nobis debitis quod.</p>
+      </div>
+      <div id="item-3-1">
+        <h5>Item 3-1</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus totam nesciunt laborum porro labore illum incidunt, alias maiores repudiandae perferendis dolorem. Aperiam, pariatur ipsum quia molestiae iusto atque sapiente placeat.</p>
+      </div>
+      <div id="item-3-2">
+        <h5>Item 3-2</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eveniet velit dignissimos sunt dolorem a nesciunt provident totam neque. Veritatis iste cupiditate beatae nobis libero adipisci totam maxime reprehenderit eligendi.</p>
+      </div>
+    </div>
+  </div>
+</div> <br>
+    
+<div class="row">
+  <div class="col-4">
+    <div id="list-example" class="list-group">
+      <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+    </div>
+  </div>
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <h4 id="list-item-1">Item 1</h4>
+      <p>... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consequuntur unde, corporis, ipsa mollitia repudiandae ab harum maiores officia velit pariatur. Temporibus tempora excepturi quo expedita exercitationem cumque voluptate odio!</p>
+      <h4 id="list-item-2">Item 2</h4>
+      <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum totam est ab pariatur unde ad, necessitatibus numquam autem laboriosam, corrupti beatae cum laborum quis ullam exercitationem magni vero aliquam quae.</p>
+      <h4 id="list-item-3">Item 3</h4>
+      <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur a similique cum voluptas, voluptates itaque totam quisquam unde dolor rem illo vero sint doloribus provident quos inventore, explicabo cumque.</p>
+      <h4 id="list-item-4">Item 4</h4>
+      <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium autem eum corporis aut consectetur magnam totam ut, vero voluptas laudantium. Dolorem quaerat numquam quasi tempora minima tenetur quam voluptatem totam.</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-4">
+    <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+      <a class="p-1 rounded" href="#simple-list-item-1">Item 1</a>
+      <a class="p-1 rounded" href="#simple-list-item-2">Item 2</a>
+      <a class="p-1 rounded" href="#simple-list-item-3">Item 3</a>
+      <a class="p-1 rounded" href="#simple-list-item-4">Item 4</a>
+      <a class="p-1 rounded" href="#simple-list-item-5">Item 5</a>
+    </div>
+  </div>
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <h4 id="simple-list-item-1">Item 1</h4>
+      <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, reprehenderit, enim autem voluptas voluptatibus ut in consectetur, ducimus dolores aliquam commodi. Quas molestias necessitatibus vitae fugit est, unde nihil obcaecati quae tenetur sed natus corporis ad, sint rem? In veritatis nobis ex excepturi, harum nulla! Voluptate ut ratione accusamus quaerat nobis soluta voluptas dolores quas minima porro dolor tempora eligendi qui, quibusdam consequuntur quisquam. Iste corrupti esse sit repudiandae consequuntur tempore beatae molestias fugit, at modi veritatis eum exercitationem consequatur neque ea nisi voluptatibus, harum ullam aliquid tenetur nulla. Assumenda odit libero aliquid fuga nesciunt tempora corrupti recusandae provident optio!</p>
+      <h4 id="simple-list-item-2">Item 2</h4>
+      <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolore iure necessitatibus eos nemo! Perferendis, at quo impedit repellendus sint itaque porro dolorum a accusamus, illo adipisci velit cum nulla autem similique iusto, rerum magni veritatis in corrupti architecto. Cupiditate fugit, hic placeat, consequuntur, deserunt accusantium doloribus temporibus blanditiis vitae et quasi. Possimus mollitia odit quasi ipsa, labore assumenda, reprehenderit tenetur similique ad adipisci laborum commodi aut ex fuga dolores praesentium quam enim pariatur. Magni fuga dignissimos doloribus mollitia commodi reprehenderit atque autem corrupti adipisci. Obcaecati modi quo necessitatibus, voluptatibus, unde ex earum culpa provident optio molestiae ad explicabo assumenda!</p>
+      <h4 id="simple-list-item-3">Item 3</h4>
+      <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis dolorem, earum voluptatem ad eveniet soluta debitis fugiat voluptatibus nulla vitae, perspiciatis placeat est nisi sit laborum a corrupti. Corrupti assumenda voluptas et obcaecati libero, rem quod commodi quae fugit tenetur autem, officia quia, consequatur maxime tempore eum pariatur accusamus dolorem similique nostrum. Molestias ipsa iusto temporibus, molestiae dolores nemo exercitationem ab quaerat reiciendis, aperiam accusantium quos officiis sequi minima! Accusantium aliquam sint vitae, temporibus eum blanditiis culpa hic voluptate ullam mollitia minima! Ipsa quis corrupti at, autem soluta molestiae quae perspiciatis placeat rem blanditiis molestias est modi deleniti! Vero!</p>
+      <h4 id="simple-list-item-4">Item 4</h4>
+      <p>... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore laborum corrupti aut cum labore consequuntur similique dolore iste modi delectus numquam quas et, dignissimos error? Incidunt possimus voluptate ipsa minus rerum quasi sunt, eius corporis, accusantium, quae cupiditate minima in repellendus omnis! Deleniti aliquam qui est culpa iusto ullam optio quas provident consequuntur, illum sed molestias ipsum architecto ipsa distinctio. Cum consequatur accusamus perspiciatis voluptate nostrum unde quidem nesciunt non nobis, magni porro molestias totam numquam voluptatem deleniti sit earum optio quibusdam explicabo delectus odit animi mollitia expedita officiis! Vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, officiis quidem autem sunt quas eos reprehenderit sit hic labore eaque, in voluptates nulla ipsam officia rerum unde quia earum cupiditate.</p>
+      <h4 id="simple-list-item-5">Item 5</h4>
+      <p>... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, non! Possimus atque rem distinctio suscipit. Ipsa voluptas in dolore repellat, odio vero. Pariatur fugit, molestias, enim praesentium, perferendis eveniet tenetur quas facere voluptatum nostrum temporibus a? Atque beatae optio ratione sit! Adipisci, eveniet! Corporis animi voluptas possimus. Laudantium natus similique, maxime ipsum possimus pariatur totam esse modi, deserunt nulla debitis molestiae nesciunt eum reiciendis, corrupti ullam laboriosam. Voluptates libero quae ipsam impedit suscipit ea nam vel obcaecati ut iure, placeat officiis eaque deleniti, quis omnis esse quibusdam sint non neque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur inventore nemo nulla praesentium sint labore! Quaerat temporibus expedita possimus illo animi sunt, at vero fugiat eligendi, natus tenetur. Laborum, autem?</p>
+    </div>
+  </div>
+</div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
